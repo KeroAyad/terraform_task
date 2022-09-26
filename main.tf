@@ -22,6 +22,6 @@ module "iti_ec2s" {
     public_security_group = module.iti_network.public_security_group
     private_security_group = module.iti_network.private_security_group
 }
-module "message_notification" {
-  source = "/home/kero/terraform/message_notification"
-}
+# module "message_notification" {
+#   source = "/home/kero/terraform/message_notification"
+# }

@@ -6,8 +6,8 @@ def lambda_handler(event, context):
     ses = boto3.client('ses')
 
     body = """
-	    Hello and welcome to the SES Lambda Python Demo.
-	
+		Hello,
+		Your state file has an update.	
 	    Regards,
 	    Kero
     """
