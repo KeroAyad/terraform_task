@@ -1,5 +1,5 @@
 resource "aws_lambda_function" "terraform_lambda_func" {
-filename                       = "/home/kero/lambda/python/python.zip"
+filename                       = "/home/kero/terraform/modules/message_notification/python.zip"
 function_name                  = "Lambda_Function"
 role                           = aws_iam_role.lambda_ses_role.arn
 handler                        = "index.lambda_handler"
