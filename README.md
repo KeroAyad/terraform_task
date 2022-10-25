@@ -1,4 +1,4 @@
-# terraform_task_network
+# terraform_task
 
 1- separate network resources into network module<br>
 2- create two workspaces dev and prod<br>
